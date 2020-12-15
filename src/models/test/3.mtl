@@ -1,0 +1,242 @@
+# Blender MTL File: 'None'
+# Material Count: 22
+
+newmtl FABRIC_2_FRONT_80817
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.792221 1.000000 0.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material3808
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\hair03_tr_544602.png
+map_d C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\hair03_tr_544602.png
+
+newmtl Material3814
+Ns 21.910373
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\hair02.jpg
+
+newmtl Material3824
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.976098 0.976098 0.976098
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\eye_1_544618.jpg
+
+newmtl Material3829
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.745098 0.745098 0.745098
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\eye_light_544623.png
+map_d C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\eye_light_544623.png
+
+newmtl Material3840
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.976098 0.976098 0.976098
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\eye_1_544618.jpg
+
+newmtl Material3844
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.745098 0.745098 0.745098
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\eye_light_544623.png
+map_d C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\eye_light_544623.png
+
+newmtl Material3946
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\W_body_lingerie_544740.jpg
+
+newmtl Material3951
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\W_face_544745.jpg
+
+newmtl Material3956
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\W_leg_hand_544750.jpg
+
+newmtl Material3968
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_beige_new_547527.jpg
+
+newmtl Material3975
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_beige_new_547527.jpg
+
+newmtl Material3980
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_nudes_547537.jpg
+
+newmtl Material3986
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material3988
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.626000 0.406900 0.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material3990
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_nudes_547537.jpg
+
+newmtl Material4001
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_beige_new_547527.jpg
+
+newmtl Material4006
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_beige_new_547527.jpg
+
+newmtl Material4011
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_nudes_547537.jpg
+
+newmtl Material4016
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material4018
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 0.626000 0.406900 0.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material4020
+Ns 28.763246
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\aveng\\AppData\\Local\\CLO\\Marvelous Designer 9 Enterprise\\11872\\1019\\skin_nudes_547537.jpg
