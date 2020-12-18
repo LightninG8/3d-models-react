@@ -12,16 +12,16 @@ import model from "../../models/peoples/womandress/womendress.gltf";
 // import texture2 from "../../models/monkey/Untitled.002.png";
 // import texture4 from "../../models/monkey/Untitled.004.png";
 
-// import texture0 from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_1K.jpg";
-import texture0 from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_2K.jpeg";
-import texture1 from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_NRM_1K.jpg";
-import texture2 from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_REFL_1K.jpg";
-import texture4 from "../../models/peoples/womandress/womendress_img2.png";
-
+import texture1col from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_1K.jpg";
+import texture2col from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_2K.jpeg";
+import texture3col from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_3K.jpeg";
+// import texture1ocl from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_4K.jpeg";
+import texture1refl from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_REFL_1K.jpg";
+import texture2refl from "../../models/peoples/womandress/womendress_img2.png";
 
 function App() {
 	const [metalness, setMetalness] = useState(0);
-	const [roughness, setRoughness] = useState(0);
+	const [roughness, setRoughness] = useState(1);
 
 	useEffect(() => {
 		const modelViewerTexture = document.querySelector("model-viewer#lantern");
@@ -31,26 +31,26 @@ function App() {
 
 			const material = materials[0];
 
-			console.log(modelViewerTexture.model.materials);
+			console.dir(material);
 
 			// Текстуры
 			const applyPBRTexture = (channel, event) => {
-				// console.log(event.target.options[event.target.options.selectedIndex].dataset[channel]);
-				material.pbrMetallicRoughness[channel].texture.source.setURI(event.target.options[event.target.options.selectedIndex].dataset[channel]);
+				material.pbrMetallicRoughness[channel].texture.source.setURI(event.target.value);
 			};
-			const applyNormalTexture = (channel, event) => {
-				// console.log(event.target.options[event.target.options.selectedIndex].dataset[channel]);
-				material.normalTexture.texture.source.setURI(event.target.options[event.target.options.selectedIndex].dataset[channel]);
-			};
+			// const applyTexture = (channel, event) => {
+			// 	material[channel].texture.source.setURI(event.target.value);
+			// };
+
 			
 			document.querySelector('#diffuse').addEventListener('input', (event) => {
 				applyPBRTexture('baseColorTexture', event);
-				applyPBRTexture('metallicRoughnessTexture', event);
-				applyNormalTexture('normalTexture', event);
 			});
 			
-			// document.querySelector('#metallicRoughness').addEventListener('input', (event) => {
-			// 	applyPBRTexture('metallicRoughnessTexture', event);
+			document.querySelector('#metallicRoughness').addEventListener('input', (event) => {
+				applyPBRTexture('metallicRoughnessTexture', event);
+			});
+			// document.querySelector('#occlusion').addEventListener('input', (event) => {
+			// 	applyTexture('occlusionTexture', event);
 			// });
 
 			// Ползунки
@@ -61,6 +61,9 @@ function App() {
 			document.querySelector('#roughness').addEventListener('input', () => {
 				material.pbrMetallicRoughness.setRoughnessFactor(event.target.value);
 			});
+
+			
+
 		}
 		modelViewerTexture.addEventListener("scene-graph-ready", changeTexture);
 
@@ -83,27 +86,36 @@ function App() {
 					id="lantern" 
 					class="model-viewer" 
 					camera-controls src={model} 
-					alt="A 3D model of a helmet">
+					alt="A 3D model of a helmet"
+					exposure="1" 
+					skybox-image="https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr"
+					>
+						
 	
 				</model-viewer>
 				<div id="controls">
 					<div>
-					<p>Diffuse</p>
-					<select id="diffuse">
-						<option >Texture 0</option>
-						<option value={texture1} data-normal-texture={texture1} data-base-color-texture={texture0} data-metallic-roughness-texture={texture2}>Texture 1</option>
-						<option value={texture2}>Texture 2</option>
-						<option value={texture4}>Texture 4</option>
-					</select>
+						<p>Diffuse</p>
+						<select id="diffuse">
+							<option value={texture1col}>Texture 1</option>
+							<option value={texture2col}>Texture 2</option>
+							<option value={texture3col}>Texture 3</option>
+						</select>
 					</div>
 					<div>
-					<p>Metallic-roughness</p>
-					<select id="metallicRoughness">
-						<option data-type="allMaps" value="https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/DamagedHelmet/glTF/Default_metalRoughness.jpg">Texture 4</option>
-						<option data-type="allMaps" value="https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/Lantern/glTF/Lantern_roughnessMetallic.png">Texture 5</option>
-						<option data-type="allMaps" value="https://modelviewer.dev/shared-assets/models/glTF-Sample-Models/2.0/WaterBottle/glTF/WaterBottle_occlusionRoughnessMetallic.png">Texture 6</option>
-					</select>
+						<p>Metallic-roughness</p>
+						<select id="metallicRoughness">
+							<option value={texture1refl}>Texture 1</option>
+							<option value={texture2refl}>Texture 2</option>
+						</select>
 					</div>
+					{/* <div>
+						<p>Occlusion</p>
+						<select id="occlusion">
+							<option>Texture 1</option>
+							<option value={texture1ocl}>Texture 1</option>
+						</select>
+					</div> */}
 					<div>
 						<p>Metalness: <span id="metalness-value">{metalness}</span></p>
 						<input id="metalness" type="range" min="0" max="1" step="0.01" value={metalness} onChange={(event) => setMetalness(onChangeRange(event))}></input>

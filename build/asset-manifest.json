@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f6e2a4e5.chunk.css",
+    "main.js": "./static/js/main.2c3b25be.chunk.js",
+    "main.js.map": "./static/js/main.2c3b25be.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.69afcce5.js",
+    "runtime-main.js.map": "./static/js/runtime-main.69afcce5.js.map",
+    "static/js/2.e6d3b4c1.chunk.js": "./static/js/2.e6d3b4c1.chunk.js",
+    "static/js/2.e6d3b4c1.chunk.js.map": "./static/js/2.e6d3b4c1.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.f6e2a4e5.chunk.css.map": "./static/css/main.f6e2a4e5.chunk.css.map",
+    "static/js/2.e6d3b4c1.chunk.js.LICENSE.txt": "./static/js/2.e6d3b4c1.chunk.js.LICENSE.txt",
+    "static/media/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_1K.11e0b432.jpg": "./static/media/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_1K.11e0b432.jpg",
+    "static/media/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_2K.0281d752.jpeg": "./static/media/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_2K.0281d752.jpeg",
+    "static/media/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_3K.03f85f55.jpeg": "./static/media/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_3K.03f85f55.jpeg",
+    "static/media/FabricUpholsteryMidCenturyPebbles001_REFL_1K.3e9d74ec.jpg": "./static/media/FabricUpholsteryMidCenturyPebbles001_REFL_1K.3e9d74ec.jpg",
+    "static/media/womendress.0b35e6c8.gltf": "./static/media/womendress.0b35e6c8.gltf",
+    "static/media/womendress_img2.02af3865.png": "./static/media/womendress_img2.02af3865.png"
+  },
+  "entrypoints": [
+    "./static/js/runtime-main.69afcce5.js",
+    "./static/js/2.e6d3b4c1.chunk.js",
+    "./static/css/main.f6e2a4e5.chunk.css",
+    "./static/js/main.2c3b25be.chunk.js"
+  ]
+}
