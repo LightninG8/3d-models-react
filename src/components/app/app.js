@@ -6,18 +6,34 @@ import './app.css';
 import settingsIcon from "../../components/app/icon.png";
 
 
-import model from "../../models/peoples/womandress/womendress.gltf";
+// import model from "../../assets/models/peoples/womandress/womendress.gltf";
 
-import textureNone from "../../models/peoples/womandress/noneTexture.jpg";
-import texture1col from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_1K.jpg";
-import texture2col from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_2K.jpeg";
-import texture3col from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_3K.jpeg";
+// import textureNone from "../../assets/models/peoples/womandress/noneTexture.jpg";
+// import texture1col from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_1K.jpg";
+// import texture2col from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_2K.jpeg";
+// import texture3col from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_3K.jpeg";
 
-import texture1refl from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_REFL_1K.jpg";
-import texture2refl from "../../models/peoples/womandress/womendress_img2.png";
+// import texture1refl from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_REFL_1K.jpg";
+// import texture2refl from "../../assets/models/peoples/womandress/womendress_img2.png";
 
-import texture1nor from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_NRM_1K.jpg";
-import texture2nor from "../../models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_NRM_2K.jpeg";
+// import texture1nor from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_NRM_1K.jpg";
+// import texture2nor from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_NRM_2K.jpeg";
+
+import model from "../../assets/models/peoples/woman/gltf/womantest2.gltf";
+
+import textureNone from "../../assets/models/peoples/womandress/noneTexture.jpg";
+import texture1col from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_1K.jpg";
+import texture2col from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_2K.jpeg";
+import texture3col from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_COL_VAR1_3K.jpeg";
+
+import texture1refl from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_REFL_1K.jpg";
+import texture2refl from "../../assets/models/peoples/womandress/womendress_img2.png";
+import texture3refl from "../../assets/models/peoples/woman/FabricUpholsteryBrightAnglePattern001_REFL_1K.jpg";
+
+import texture1nor from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_NRM_1K.jpg";
+import texture2nor from "../../assets/models/peoples/womandress/FabricUpholsteryMidCenturyPebbles001_NRM_2K.jpeg";
+import texture3nor from "../../assets/models/peoples/woman/1.jpg";
+import texture4nor from "../../assets/models/peoples/woman/2.jpg";
 
 function App() {
 	const [metalness, setMetalness] = useState(0);
@@ -29,7 +45,7 @@ function App() {
 		function changeTexture() {
 			const materials = modelViewerTexture.model.materials;
 
-			const material = materials[0];
+			const material = materials[28];
 
 			console.dir(material);
 
@@ -104,7 +120,7 @@ function App() {
 					camera-controls src={model} 
 					alt="A 3D model of a helmet"
 					exposure="1" 
-					skybox-image="https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr"
+					
 					>
 					<div id="controlsBurger" onClick={toggleSettingsVisible}>
 						<img src={settingsIcon} alt="" className="controlsBurger__icon"/>
@@ -124,6 +140,7 @@ function App() {
 							<select id="metallicRoughness">
 								<option value={texture1refl}>Texture 1</option>
 								<option value={texture2refl}>Texture 2</option>
+								<option value={texture3refl}>Texture 3</option>
 								<option value={textureNone}>None</option>
 							</select>
 						</div>
@@ -132,6 +149,8 @@ function App() {
 							<select id="normal">
 								<option value={texture1nor}>Texture 1</option>
 								<option value={texture2nor}>Texture 2</option>
+								<option value={texture3nor}>Texture 3</option>
+								<option value={texture4nor}>Texture 4</option>
 								<option value={textureNone}>None</option>
 							</select>
 						</div>
